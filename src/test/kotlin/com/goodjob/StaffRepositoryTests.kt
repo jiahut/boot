@@ -12,6 +12,7 @@ import org.springframework.util.Assert
 @ExtendWith(SpringExtension::class)
 @DataJpaTest
 class StaffRepositoryTests(
+
         @Autowired private val staffRepository: StaffRepository) {
 
     @Test

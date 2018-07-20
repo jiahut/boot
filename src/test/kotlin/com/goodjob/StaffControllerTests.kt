@@ -12,7 +12,6 @@ import org.springframework.test.context.junit.jupiter.SpringExtension
 
 @ExtendWith(SpringExtension::class)
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
-
 class StaffControllerTests(
         @Autowired private val restTemplate: TestRestTemplate) {
 
