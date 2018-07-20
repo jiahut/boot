@@ -10,8 +10,12 @@ This is the project created by SpringBoot2 with kotlin
 
 > gradle bootRun
 
+### unit test
 
-### test
+> gradle test
+
+### usecase
+
 
 > curl http://localhost:8080/staffs | python3 -m json.tool
 
